@@ -7,3 +7,29 @@ Image Gallery: Displays a grid of high-quality images with responsive design.
 API Integration: Fetches photos from an external API like Unsplash or Pexels.
 Infinite Scroll or Pagination: Supports browsing through an infinite number of images or using pagination to navigate through search results.
 Responsive Design: Fully responsive, adapting to mobile, tablet, and desktop screens.
+
+Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/stock-photos-app.git
+cd stock-photos-app
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Create a .env file in the root directory and add your API key:
+
+plaintext
+Copy code
+REACT_APP_API_KEY=your_api_key_here
+Start the development server:
+
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
