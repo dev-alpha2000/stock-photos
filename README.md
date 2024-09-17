@@ -27,6 +27,25 @@ Create a .env file in the root directory and add your API key:
 plaintext
 Copy code
 REACT_APP_API_KEY=your_api_key_here
+
+Usage
+Search for Photos: Use the search bar to find stock photos based on a keyword (e.g., "mountains", "architecture").
+Browse Image Gallery: View the search results in a grid layout.
+Infinite Scroll: The app loads more photos as you scroll down the page (or pagination, if implemented).
+API
+This app uses the Pexels API or Unsplash API to fetch stock photos. You need to sign up for an API key from the respective service and include it in your .env file as REACT_APP_API_KEY.
+
+Example
+When you open the app, you will:
+
+See a search bar to enter a keyword.
+Display stock photos matching the search query in a gallery format.
+Browse through an infinite scroll or use pagination to explore more photos.
+Dependencies
+React: Frontend framework for building the UI.
+Axios or Fetch API: For making API requests to the stock photo service.
+React Infinite Scroll Component or Pagination: For loading more images dynamically.
+CSS Modules or Styled Components: For styling.
 Start the development server:
 
 bash
